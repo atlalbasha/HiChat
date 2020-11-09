@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "385536243327",
+    "firebase_url": "https://hichat-6602a.firebaseio.com",
+    "project_id": "hichat-6602a",
+    "storage_bucket": "hichat-6602a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:385536243327:android:dcd08c3ce327d05399f14a",
+        "android_client_info": {
+          "package_name": "atlal.basha.hichat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "385536243327-qdmne5i6mjbhahjls75j1v52u7t5nuee.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCb_h-wFl9mIx1mvINXGCBlwezT3D0hIRg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "385536243327-qdmne5i6mjbhahjls75j1v52u7t5nuee.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

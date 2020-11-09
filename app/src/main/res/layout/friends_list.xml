@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="1dp"
+    app:cardBackgroundColor="#48BEF3"
+    android:layout_margin="0.3dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="6dp"
+        >
+
+        <ImageView
+            android:id="@+id/user_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="2dp"
+            android:src="@drawable/person_icon"/>
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/grow"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_toEndOf="@+id/user_image"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/user_image"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp" />
+
+        <TextView
+            android:id="@+id/user_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hello there"
+            android:textColor="@color/grow_teal"
+            android:textSize="15sp"
+            android:textStyle="normal"
+            android:layout_toEndOf="@+id/user_image"
+            android:layout_toRightOf="@+id/user_image"
+            android:layout_marginStart="16dp"
+            android:layout_below="@+id/user_name"
+            android:layout_marginLeft="16dp" />
+
+    </RelativeLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

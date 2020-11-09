@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:clipToPadding="false"
+    android:focusableInTouchMode="true"
+    android:padding="16dp"
+    tools:context=".ChatActivity">
+
+    <TextView
+        android:id="@+id/message_textView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        />
+
+
+
+    <EditText
+        android:id="@+id/send_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Send Message"
+        android:text=""
+        android:inputType="text"
+
+
+        />
+    <ImageButton
+        android:id="@+id/send_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/send_icon"
+        android:layout_gravity="center"
+        android:onClick="sendMessage"
+        android:layout_marginHorizontal="10dp"
+        />
+
+
+</LinearLayout>
